@@ -1,0 +1,7 @@
+*.csv
+*.xlsx
+.env
+secrets.py
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
