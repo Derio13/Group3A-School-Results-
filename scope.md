@@ -1,58 +1,80 @@
-# Scope note — Group 3A, School Results
+Week 1 — Scope note
+Group 3a · School results · due before your first weekly call
 
-## 1. The question, as given
-Which subjects show the weakest results, and how does attendance relate
-to score across terms?
+Group: group3a
+Date agreed: [fill in]
+Who was in the discussion: [fill in]
+Phase lead for week 1: [fill in]
 
-## 2. The question, in our own words
-The head teacher suspects attendance is the main driver of poor results,
-and wants to know where to focus extra teaching support. We need to show
-which subjects are actually underperforming, and test whether attendance
-really explains it — or whether the story is more complicated.
+The question you were given
+Which subjects show the weakest results, and how does attendance
+relate to score across terms?
 
-## 3. Sub-questions (3–5, each answerable by one chart)
-1. Which subjects have the lowest average scores, and has that ranked
-   list changed between terms?
-2. Is there a real relationship between attendance and score, and how
-   strong is it — for the whole school and by subject?
-3. Do some year groups or regions show a gap between attendance and
-   score that others don't?
-4. Which subjects show the widest spread of scores (i.e. inconsistent
-   performance, not just low averages)?
+1. The situation
+A junior high school records exam scores and attendance but reviews
+them only informally at the end of term. The head teacher wants to know
+where to put extra teaching support, and whether attendance is really
+the driver everyone assumes. Your audience is the head teacher — not
+an analyst.
 
-## 4. Who this is for
-The head teacher. Not an analyst — no jargon, no unexplained charts.
+2. What we think the question is actually asking
+[GROUP TO WRITE — your own words, not synonym-swapped. Say what
+someone currently believes and what would change their mind.]
 
-What decision would they make differently with our answer?
-Where to direct extra teaching support next term, and whether an
-attendance-improvement push would actually move the needle on results.
+3. Our sub-questions
+1. Which subjects have the lowest average scores and pass rates?
+2. Do students with higher attendance score better, and by how much?
+3. Does the pattern hold across all three terms?
+[GROUP TO ADD/EDIT — keep, change, or delete the above]
 
-## 5. Your four tables
-- results (30,120 rows) — fact table
-- students (1,200 rows)
-- subjects (10 rows)
-- teachers (50 rows)
-No date table exists yet — we build it in week 4.
+4. Who this is for, and what they would do with it
+The decision they would make: [GROUP TO WRITE]
 
-## 6. What we are NOT doing
-- Not claiming attendance *causes* better scores — only showing
-  correlation/relationship.
-- Not diagnosing *why* any teacher's students underperform.
-- Not building teacher-performance scorecards.
-- (add anything else the group wants to rule out now)
+5. What "done" looks like
+Our dashboard will let the head teacher:
+[GROUP TO WRITE — what can they see/filter, what can they say after
+10 seconds?]
 
-## 7. Definition of done
-- Dashboard answers all sub-questions above without us narrating it.
-- Star schema in Power BI, not a flat table.
-- GitHub repo has SQL, cleaning notebook, data quality notes, and a
-  README a stranger could follow.
+6. What is out of scope
+We are NOT:
+- Claiming attendance causes better scores — only showing the
+  relationship, not proving the direction.
+[GROUP TO ADD MORE]
 
-## 8. Phase rota
-| Phase | Week | Lead |
+7. Our data
+Schema we read: raw_school
+Schema we write to: group3a
+Fact table: results
+All four tables: results (30,120) · students (1,200) · subjects (10) ·
+teachers (50)
+
+First impressions from looking at the tables:
+[GROUP TO WRITE — after opening DBeaver together]
+
+Questions we have about the data — bring these to the call:
+[GROUP TO WRITE]
+
+8. Who leads which phase
+| Phase | Weeks | Lead |
 |---|---|---|
-| Scope | 1 | (name) |
-| SQL profiling | 2 | (name) |
-| Python cleaning | 3 | (name) |
-| Data modelling | 4 | (name) |
-| Dashboard | 5–6 | (name) |
-| Presentation | 7–8 | (name) |
+| Scope | 1 | |
+| SQL profiling | 2 | |
+| Python cleaning | 3 | |
+| Data modelling | 4 | |
+| Dashboard build | 5–6 | |
+| Presentation | 7–8 | |
+
+How we communicate: [fill in]
+When we meet as a group: [fill in]
+
+9. Risks we can already see
+| Risk | What we will do about it |
+|---|---|
+| Not everyone is available at the same times | |
+| Most of us are new to Power BI | |
+
+Sign-off
+[Everyone types their own name — only if they've actually read this]
+
+Done when: Every member of group3a could explain this project to a
+stranger in two sentences, without looking at this file.
